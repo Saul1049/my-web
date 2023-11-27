@@ -1,0 +1,101 @@
+/* margin */
+body, ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Centering the navigation bar */
+ul {
+    list-style-type: none;
+    background-color: #14110F;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* list items */
+li {
+    float: left;
+}
+
+/* Styling the links */
+li a {
+    display: block;
+    color: #F3F3F4;
+    text-align: center;
+    padding: 15px 22px;
+    text-decoration: none;
+}
+
+/* hover */
+li a:hover {
+    background-color: #7E7F83;
+}
+
+/* background and text color */
+body {
+    background-color: #F3F3F4;
+    color: black;
+}
+
+
+.hero-section {
+    background-image: url('hero bkg.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.image {
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.with-background {
+    background-color: #cccccc;
+    padding: 50px;
+}
+
+/* Styling for the educational journey section with background image */
+.educational-journey-section {
+    background-image: url('school.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.college-plans-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.college-plans-images img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
