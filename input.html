@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="input.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div id="hangman-container">
+        <img id="hangman-image" src="hang0.png" alt="Hangman Image">
+    </div>
+    <div id="word-display"></div>
+    <div id="guess-input">
+        <label for="letter-input">Enter a letter: </label>
+        <input type="text" id="letter-input" maxlength="1">
+        <button onclick="guessLetter()">Guess</button>
+    </div>
+    <div id="guessed-letters"></div>
+    <button onclick="newGame()">New Game</button>
+
+
+    <audio id="correctLetterAudio" src="correct.mp3"></audio>
+    <audio id="correctWordAudio" src="win.mp3"></audio>
+
+
+    <script src="input.js"></script>
+</body>
+</html>
